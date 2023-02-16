@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from '../styles/Global';
-import assets from '../assets';
+import { expo } from '../assets';
 import Button from './Button';
 import Image from 'next/image';
 
@@ -47,7 +47,7 @@ const SectionWrapper = ({
 					</p>
 					{showBtn && (
 						<Button
-							assetUrl={assets.expo}
+							assetUrl={expo}
 							link="https://expo.dev/@adrianhajdin/react_native_app?serviceType=classic&distribution=expo-go"
 						/>
 					)}
