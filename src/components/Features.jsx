@@ -19,7 +19,7 @@ const FeatureCard = ({ iconUrl, iconText }) => (
 
 const Features = () => {
 	return (
-		<div className={`${styles.section} ${styles.bgPrimary} banner02`}>
+		<div className={`${styles.section} ${styles.bgPrimary} banner03`}>
 			<div className={`${styles.subSection} flex-col text-center`}>
 				<div>
 					<h1 className={`${styles.h1Text} ${styles.whiteText}`}>
