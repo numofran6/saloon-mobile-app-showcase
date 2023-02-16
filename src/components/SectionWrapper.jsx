@@ -59,6 +59,7 @@ const SectionWrapper = ({
 						alt="mockup"
 						width={'auto'}
 						height={'auto'}
+						priority
 						className={`
            ${reverse ? ' fadeLeftMini' : ' fadeRightMini'}
           ${styles.sectionImg}`}

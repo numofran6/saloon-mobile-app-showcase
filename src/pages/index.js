@@ -27,31 +27,27 @@ const Home = () => {
 
 			<Download />
 
-			<div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
-				<div
-					className={`${styles.pText} ${styles.whiteText} flex-row space-x-5`}
+			<div className="pb-5 pt-10 justify-center items-center bg-primary flex-row text-center banner04 space-x-7">
+				<Link
+					href={''}
+					className={`${styles.whiteText} hover:text-green-300 transition-all duration-500 ease-out my-5 minmd:my-10 font-IBMPlex font-light minmd:text-3xl minlg:text-4xl minmd:leading-16`}
 				>
-					<Link
-						href={''}
-						className="hover:text-green-300 transition-all duration-500 ease-out"
-					>
-						My GitHub
-					</Link>
+					My GitHub
+				</Link>
 
-					<Link
-						href={''}
-						className="hover:text-green-300 transition-all duration-500 ease-out"
-					>
-						Portfolio Website
-					</Link>
+				<Link
+					href={''}
+					className={` ${styles.whiteText} hover:text-green-300 transition-all duration-500 ease-out my-5 minmd:my-10 font-IBMPlex font-light minmd:text-3xl minlg:text-4xl minmd:leading-16`}
+				>
+					Portfolio Website
+				</Link>
 
-					<Link
-						href={''}
-						className="hover:text-green-300 transition-all duration-500 ease-out"
-					>
-						LinkedIn
-					</Link>
-				</div>
+				<Link
+					href={''}
+					className={`${styles.whiteText} hover:text-green-300 transition-all duration-500 ease-out my-5 minmd:my-10 font-IBMPlex font-light minmd:text-3xl minlg:text-4xl minmd:leading-16`}
+				>
+					LinkedIn
+				</Link>
 			</div>
 		</>
 	);
