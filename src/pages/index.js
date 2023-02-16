@@ -34,21 +34,21 @@ const Home = () => {
 
 			<div className="pb-7 pt-10 justify-center items-center bg-primary flex-row text-center banner04 space-x-7">
 				<Link
-					href={''}
+					href={'https://github.com/numofran6'}
 					className={`${styles.whiteText} hover:text-green-300 transition-all duration-500 ease-out my-5 minmd:my-10 font-IBMPlex font-light minmd:text-3xl minlg:text-4xl minmd:leading-16`}
 				>
 					My GitHub
 				</Link>
 
 				<Link
-					href={''}
+					href={'https://numoportfolio.vercel.app/'}
 					className={` ${styles.whiteText} hover:text-green-300 transition-all duration-500 ease-out my-5 minmd:my-10 font-IBMPlex font-light minmd:text-3xl minlg:text-4xl minmd:leading-16`}
 				>
 					Portfolio Website
 				</Link>
 
 				<Link
-					href={''}
+					href={'https://linkedin.com/in/numofrancis'}
 					className={`${styles.whiteText} hover:text-green-300 transition-all duration-500 ease-out my-5 minmd:my-10 font-IBMPlex font-light minmd:text-3xl minlg:text-4xl minmd:leading-16`}
 				>
 					LinkedIn
