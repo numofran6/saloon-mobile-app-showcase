@@ -2,10 +2,15 @@ import { Download, Features, SectionWrapper } from '../components';
 import { homeCards, homeHero } from '../assets';
 import styles from '../styles/Global';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const Home = () => {
 	return (
 		<>
+			<Head>
+				<title>DeFavoured Saloon</title>
+			</Head>
+
 			<SectionWrapper
 				title="DeFavoured Beauty Saloon"
 				description="Look And Feel Your Very Best. Home to a highly-skilled and friendly team of hair experts and spa concierges. Download our app to get the best out of our services!"
