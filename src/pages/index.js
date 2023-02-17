@@ -1,5 +1,5 @@
 import { Download, Features, SectionWrapper } from '../components';
-import { homeCards, homeHero } from '../assets';
+import { homeCards, homeHero, mainhero, sub } from '../assets';
 import styles from '../styles/Global';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -15,17 +15,19 @@ const Home = () => {
 				title="DeFavoured Beauty Saloon"
 				description="Look And Feel Your Very Best. Home to a highly-skilled and friendly team of hair experts and spa concierges. Download our app to get the best out of our services!"
 				showBtn
-				mockupImg={homeHero}
+				mockupImg={mainhero}
 				banner="banner"
 				height={'min-h-screen'}
+				imgStyle={styles.sectionImg}
 			/>
 
 			<SectionWrapper
 				title="Smart User Interface"
-				description="Experience a buttery UI of our booking app. Smooth constant colors of a fluent UI, designed to make shopping and booking an appointment with us so satifying."
-				mockupImg={homeCards}
+				description="Experience a buttery UI of our booking app. Smooth constant colors of a fluent UI, designed to make shopping and booking appointments with us so satifying."
+				mockupImg={sub}
 				reverse
 				height={'min-h-screen'}
+				imgStyle={styles.sectionImg2}
 			/>
 
 			<Features />

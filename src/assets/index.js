@@ -6,6 +6,8 @@ import expo02 from './expo02.png';
 import javascript from './javascript.png';
 import react from './react.png';
 import mockup from './mockup.png';
+import mainhero from './main1.png';
+import sub from './sub.png';
 
 export {
 	homeHero,
@@ -16,4 +18,6 @@ export {
 	javascript,
 	react,
 	mockup,
+	mainhero,
+	sub,
 };

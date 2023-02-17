@@ -13,6 +13,7 @@ const SectionWrapper = ({
 	banner,
 	reverse,
 	height,
+	imgStyle,
 }) => {
 	return (
 		<div
@@ -57,12 +58,12 @@ const SectionWrapper = ({
 					<Image
 						src={mockupImg}
 						alt="mockup"
-						width={'auto'}
-						height={'auto'}
+						width={4000}
+						height={4000}
 						priority
 						className={`
            ${reverse ? ' fadeLeftMini' : ' fadeRightMini'}
-          ${styles.sectionImg}`}
+          ${imgStyle}`}
 					/>
 				</div>
 			</div>
