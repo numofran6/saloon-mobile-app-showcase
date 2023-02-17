@@ -46,7 +46,7 @@ const Home = () => {
 					href={'https://numoportfolio.vercel.app/'}
 					className={` ${styles.whiteText} hover:text-purple-300 transition-all duration-500 ease-out my-5 minmd:my-10 font-IBMPlex font-light minmd:text-3xl minlg:text-4xl minmd:leading-16`}
 				>
-					Portfolio Website
+					My Portfolio Website
 				</Link>
 
 				<Link
