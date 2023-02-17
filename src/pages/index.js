@@ -12,8 +12,8 @@ const Home = () => {
 			</Head>
 
 			<SectionWrapper
-				title="DeFavoured Beauty Saloon"
-				description="Look And Feel Your Very Best. Home to a highly-skilled and friendly team of hair experts and spa concierges. Download our app to get the best out of our services!"
+				title="Explore our Mobile App on Expo"
+				description="Look And Feel Your Very Best. Follow the link below to explore and interact with us on expo"
 				showBtn
 				mockupImg={mainhero}
 				banner="banner"
