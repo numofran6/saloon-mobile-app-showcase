@@ -6,6 +6,7 @@
 
 .banner {
 	background: url('/banner.svg');
+	background-color: #ff00ff;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
