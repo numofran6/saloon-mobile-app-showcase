@@ -16,7 +16,7 @@
 		#ffdc18,
 		#ff3706
 	);
-	background-size: 600% 100%;
+	/* background-size: 600% 100%; */
 	animation: gradient 16s linear infinite;
 	animation-direction: alternate;
 }
@@ -75,5 +75,5 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
