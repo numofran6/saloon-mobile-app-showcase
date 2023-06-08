@@ -13,7 +13,7 @@ const Home = () => {
 
 			<SectionWrapper
 				title="Explore the Mobile App on Expo"
-				description="This website is a showcase for the DeFavoured Saloon mobile application built using React Native. Follow the link below to explore and interact with the mobile app on expo"
+				description="This website is a showcase for the DeFavoured Saloon mobile application built using React Native. Follow the link below to interact with the mobile app on expo"
 				showBtn
 				mockupImg={mainhero}
 				banner="banner"
