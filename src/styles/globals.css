@@ -41,14 +41,16 @@
 	width: 100%;
 }
 
-.fadeLeftMini {
-	animation: fadeLeftMini 1s;
-	animation-fill-mode: both;
-}
+@media (min-width: 500px) {
+	.fadeLeftMini {
+		animation: fadeLeftMini 1s;
+		animation-fill-mode: both;
+	}
 
-.fadeRightMini {
-	animation: fadeRightMini 1s;
-	animation-fill-mode: both;
+	.fadeRightMini {
+		animation: fadeRightMini 1s;
+		animation-fill-mode: both;
+	}
 }
 
 @keyframes fadeLeftMini {
@@ -75,5 +77,4 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	/* overflow-x: hidden; */
 }

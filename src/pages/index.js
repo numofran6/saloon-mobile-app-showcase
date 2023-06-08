@@ -1,5 +1,5 @@
 import { Download, Features, SectionWrapper } from '../components';
-import { homeCards, homeHero, mainhero, sub } from '../assets';
+import { mainhero, sub } from '../assets';
 import styles from '../styles/Global';
 import Link from 'next/link';
 import Head from 'next/head';
