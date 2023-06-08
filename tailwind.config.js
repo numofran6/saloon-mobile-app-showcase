@@ -27,7 +27,7 @@ module.exports = {
 			minlg: '2100px',
 		},
 		fontFamily: {
-			IBMPlex: ['IBM Plex Sans', 'sans-serif'],
+			Montserrat: ['Montserrat', 'sans-serif'],
 		},
 	},
 	plugins: [],
