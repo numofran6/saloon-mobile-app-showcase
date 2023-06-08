@@ -5,38 +5,38 @@
 @tailwind utilities;
 
 .banner {
-	background: url('/banner.svg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 100%;
 	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		45deg,
+		#f17c58,
+		#e94584,
+		#24aadb,
+		#27dbb1,
+		#ffdc18,
+		#ff3706
+	);
+	background-size: 600% 100%;
+	animation: gradient 16s linear infinite;
+	animation-direction: alternate;
 }
-
-.banner02 {
-	background: url('/banner02.svg');
-	background-color: #ff00ff;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 100%;
-	width: 100%;
+@keyframes gradient {
+	0% {
+		background-position: 0%;
+	}
+	100% {
+		background-position: 100%;
+	}
 }
 
 .banner03 {
-	background: url('/banner03.svg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-image: linear-gradient(#27dbb1, #24aadb);
 	height: 100%;
 	width: 100%;
 }
 
 .banner04 {
-	background: url('/banner04.svg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-image: linear-gradient(to right, violet, darkred, purple);
 	height: 100%;
 	width: 100%;
 }

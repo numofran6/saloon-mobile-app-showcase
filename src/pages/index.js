@@ -12,8 +12,8 @@ const Home = () => {
 			</Head>
 
 			<SectionWrapper
-				title="Explore our Mobile App on Expo"
-				description="Look And Feel Your Very Best. Follow the link below to explore and interact with us on expo"
+				title="Explore the Mobile App on Expo"
+				description="Look And Feel Your Very Best with DeFavored Beauty Saloon. Follow the link below to explore and interact with the mobile app on expo"
 				showBtn
 				mockupImg={mainhero}
 				banner="banner"

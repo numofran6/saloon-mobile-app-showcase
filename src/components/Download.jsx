@@ -12,13 +12,10 @@ const Download = () => {
 				className={`${styles.subSection} md:flex-col flex-row items-center justify-center`}
 			>
 				<div className="flex-1 text-center">
-					<div>
+					<div className="mb-5">
 						<h1 className={`${styles.h1Text} ${styles.blackText}`}>
-							Download the Source Code
-						</h1>
-						<p className={`${styles.pText} ${styles.blackText}`}>
 							Get the full source code on GitHub
-						</p>
+						</h1>
 					</div>
 
 					<Link
